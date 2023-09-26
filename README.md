@@ -1,64 +1,64 @@
-deCalles-API 🏙️
+# deCalles-API 🏙️
 
-deCalles-API es un proyecto diseñado para proporcionar información detallada sobre las calles de Capital Federal, Buenos Aires, Argentina. Utilizando esta API, puedes acceder a datos como el nombre de la calle, longitud, numeración máxima, tipo de calle y la historia del nombre.
-🌟 Características
+deCalles-API es un proyecto diseñado para proporcionar información detallada sobre las calles de Argentina. Utilizando esta API, puedes acceder a datos como el nombre de la calle, longitud, numeración máxima, tipo de calle y la historia del nombre.
 
-    Consulta Detallada de Calles: Obtiene información específica sobre diferentes calles en CABA.
-    Facilidad de Uso: La API proporciona endpoints intuitivos y fáciles de usar para acceder a la información de las calles.
-    Documentación Completa: Incluye documentación detallada para ayudar a los desarrolladores a integrar sus aplicaciones con la API.
+## 🌟 Características
 
-🚀 Empezando
-Pre-requisitos
+- **Consulta Detallada de Calles:** Obtiene información específica sobre diferentes calles en Argentina.
+- **Facilidad de Uso:** La API proporciona endpoints intuitivos y fáciles de usar para acceder a la información de las calles.
+- **Documentación Completa:** Incluye documentación detallada para ayudar a los desarrolladores a integrar sus aplicaciones con la API.
 
-    Node.js
-    npm or yarn
-    (Otros pre-requisitos dependiendo de tu proyecto)
+## 🚀 Empezando
 
-Instalación
+### Pre-requisitos
 
-    Clona el repositorio:
+- Node.js
+- npm or yarn
+- (Otros pre-requisitos dependiendo de tu proyecto)
 
-    sh
+### Instalación
 
-git clone https://github.com/alotama/deCalles.git
+1. Clona el repositorio:
+   ```sh
+   git clone https://github.com/usuario/deCalles-API.git
+   ```
+2. Instala los paquetes NPM/yarn:
+   ```sh
+   npm install
+   # o con yarn
+   yarn
+   ```
+3. (Otros pasos de instalación y configuración)
 
-Instala los paquetes NPM/yarn:
+## 📜 Documentación
 
-sh
+La documentación completa para la API está disponible en [Link a la Documentación](#).
 
-    npm install
-    # o con yarn
-    yarn
-
-    (Otros pasos de instalación y configuración)
-
-📜 Documentación
-
-La documentación completa para la API está disponible en Link a la Documentación.
-💻 Uso
+## 💻 Uso
 
 Para realizar una consulta, puedes hacer un GET request al siguiente endpoint:
-
-bash
-
-https://decalles.com.ar/api/calles?parametros
+```
+https://dirección_de_tu_api.com/api/calles?parametros
+```
 
 (Continúa con ejemplos y detalles específicos de uso, incluyendo posibles parámetros y respuestas)
-🤝 Contribuir
 
-Las contribuciones son lo que hacen a la comunidad open source un lugar increíble para aprender, inspirar y crear. Cualquier contribución que quieras hacer será muy apreciada.
+## 🤝 Contribuir
 
-    Bifurca el Proyecto
-    Crea tu Feature Branch (git checkout -b feature/NuevaCaracteristica)
-    Haz Commit de tus Cambios (git commit -m 'Añadir alguna NuevaCaracteristica')
-    Push al Branch (git push origin feature/NuevaCaracteristica)
-    Abre un Pull Request
+Las contribuciones son lo que hacen a la comunidad open source un lugar increíble para aprender, inspirar y crear. Cualquier contribución que quieras hacer será **muy apreciada**.
 
-📄 Licencia
+1. Bifurca el Proyecto
+2. Crea tu Feature Branch (`git checkout -b feature/NuevaCaracteristica`)
+3. Haz Commit de tus Cambios (`git commit -m 'Añadir alguna NuevaCaracteristica'`)
+4. Push al Branch (`git push origin feature/NuevaCaracteristica`)
+5. Abre un Pull Request
 
-Distribuido bajo la licencia MIT. Consulta LICENSE para más información.
-💌 Contacto
+## 📄 Licencia
 
-Nombre del Autor - @alotama
+Distribuido bajo la licencia MIT. Consulta `LICENSE` para más información.
 
-Link del Proyecto: https://github.com/alotama/deCalles
+## 💌 Contacto
+
+Nombre del Autor - [@nombre_del_autor](https://twitter.com/nombre_del_autor)
+
+Link del Proyecto: [https://github.com/usuario/deCalles-API](https://github.com/usuario/deCalles-API)
