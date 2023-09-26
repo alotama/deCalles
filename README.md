@@ -20,7 +20,7 @@ deCalles-API es un proyecto diseñado para proporcionar información detallada s
 
 1. Clona el repositorio:
    ```sh
-   git clone https://github.com/usuario/deCalles-API.git
+   git clone https://github.com/alotama/deCalles.git
    ```
 2. Instala los paquetes NPM/yarn:
    ```sh
@@ -38,7 +38,7 @@ La documentación completa para la API está disponible en [Link a la Documentac
 
 Para realizar una consulta, puedes hacer un GET request al siguiente endpoint:
 ```
-https://dirección_de_tu_api.com/api/calles?parametros
+https://decalles.com.ar/api/calles?parametros
 ```
 
 (Continúa con ejemplos y detalles específicos de uso, incluyendo posibles parámetros y respuestas)
@@ -59,6 +59,6 @@ Distribuido bajo la licencia MIT. Consulta `LICENSE` para más información.
 
 ## 💌 Contacto
 
-Nombre del Autor - [@nombre_del_autor](https://twitter.com/nombre_del_autor)
+Sebastian Tamashiro - [@alotama](https://twitter.com/alotama)
 
-Link del Proyecto: [https://github.com/usuario/deCalles-API](https://github.com/usuario/deCalles-API)
+Link del Proyecto: [https://github.com/alotama/deCalles](https://github.com/alotama/deCalles)
