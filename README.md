@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+deCalles-API 🏙️
 
-## Getting Started
+deCalles-API es un proyecto diseñado para proporcionar información detallada sobre las calles de Capital Federal, Buenos Aires, Argentina. Utilizando esta API, puedes acceder a datos como el nombre de la calle, longitud, numeración máxima, tipo de calle y la historia del nombre.
+🌟 Características
 
-First, run the development server:
+    Consulta Detallada de Calles: Obtiene información específica sobre diferentes calles en CABA.
+    Facilidad de Uso: La API proporciona endpoints intuitivos y fáciles de usar para acceder a la información de las calles.
+    Documentación Completa: Incluye documentación detallada para ayudar a los desarrolladores a integrar sus aplicaciones con la API.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🚀 Empezando
+Pre-requisitos
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    Node.js
+    npm or yarn
+    (Otros pre-requisitos dependiendo de tu proyecto)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Instalación
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    Clona el repositorio:
 
-## Learn More
+    sh
 
-To learn more about Next.js, take a look at the following resources:
+git clone https://github.com/alotama/deCalles.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Instala los paquetes NPM/yarn:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+sh
 
-## Deploy on Vercel
+    npm install
+    # o con yarn
+    yarn
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    (Otros pasos de instalación y configuración)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+📜 Documentación
+
+La documentación completa para la API está disponible en Link a la Documentación.
+💻 Uso
+
+Para realizar una consulta, puedes hacer un GET request al siguiente endpoint:
+
+bash
+
+https://decalles.com.ar/api/calles?parametros
+
+(Continúa con ejemplos y detalles específicos de uso, incluyendo posibles parámetros y respuestas)
+🤝 Contribuir
+
+Las contribuciones son lo que hacen a la comunidad open source un lugar increíble para aprender, inspirar y crear. Cualquier contribución que quieras hacer será muy apreciada.
+
+    Bifurca el Proyecto
+    Crea tu Feature Branch (git checkout -b feature/NuevaCaracteristica)
+    Haz Commit de tus Cambios (git commit -m 'Añadir alguna NuevaCaracteristica')
+    Push al Branch (git push origin feature/NuevaCaracteristica)
+    Abre un Pull Request
+
+📄 Licencia
+
+Distribuido bajo la licencia MIT. Consulta LICENSE para más información.
+💌 Contacto
+
+Nombre del Autor - @alotama
+
+Link del Proyecto: https://github.com/alotama/deCalles
