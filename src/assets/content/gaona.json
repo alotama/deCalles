@@ -1,0 +1,30 @@
+{
+    "data": {
+        "150": {
+            "history": "La Avenida Gaona en Buenos Aires tiene una rica historia vinculada al desarrollo de la ciudad desde el siglo XVIII. Su nombre está asociado a don Pablo Ruiz de Gaona, un conspicuo vecino y alcalde de Buenos Aires en los años 1774 y 1787, que poseía una chacra (granja) en las afueras de la ciudad, conocida por el Estanco de Gaona. Este lugar posteriormente pasó a diferentes dueños, finalmente integrándose al Parque Centenario, el centro geográfico de la Capital Federal, a principios del siglo XX. Se destaca que el nombre Gaona podría haberse derivado de la pronunciación “Gauna”, aunque el artículo sugiere que “Gaona” es el nombre correcto, refiriéndose al antiguo propietario de la tierra en la época colonial, en lugar de otras figuras históricas con el apellido Gaona o Gauna. Fuente: Buenos Aires Historia",
+            "source": [
+                {
+                    "url": "https://es.wikipedia.org/wiki/Avenida_Gaona",
+                    "label": "Avenida Gaona"
+                },
+                {
+                    "url": "https://buenosaireshistoria.org/juntas/la-avenida-gaona-y-el-camino-de-gauna/",
+                    "label": "Buenos Aires Historia - Avenida Gaona y el camino de gauna"
+                }
+            ]
+        },
+        "300": {
+            "history": "La Avenida Gaona, situada en Buenos Aires, es significativa por su historia y su conexión con figuras prominentes del siglo XVIII. El nombre Gaona está vinculado a don Pablo Ruiz de Gaona, un respetable ciudadano que fue alcalde de Buenos Aires y que poseía una chacra en las afueras de la ciudad. Este terreno era conocido como el Estanco de Gaona y posteriormente, pasó a formar parte del Parque Centenario, el centro geográfico de la Capital Federal.\n\nDon Pablo Ruiz de Gaona, casado con doña María Elena de Lezica, tuvo un papel importante en la sociedad de la época, siendo alcalde, regidor y alférez real en diferentes momentos. Gaona se retiró a su chacra, donde edificó una casa y una capilla que, con el tiempo, sirvió de Parroquia Provisional. A pesar de su salud delicada, Gaona vivió hasta 1813, y la propiedad fue heredada por sus nietos y cambió de manos varias veces, hasta que a finales del siglo XIX y principios del siglo XX se integró al Parque Centenario.\n\nEl artículo menciona la posibilidad de que el nombre “Gaona” haya sido originalmente pronunciado y escrito como “Gauna”, y que esta forma fue la que se adoptó en documentos y planos oficiales durante un tiempo. Sin embargo, se sugiere que “Gaona” es la forma correcta del apellido, y se refiere específicamente a don Pablo Ruiz de Gaona, el antiguo dueño de la chacra, en lugar de a otras personas con apellidos similares.\n\nEste detalle resalta la importancia de la precisión histórica y el reconocimiento correcto de las figuras asociadas con el desarrollo urbano y cultural de Buenos Aires. Es una ventana a la rica historia de la ciudad y a los cambios que ha experimentado a lo largo de los siglos. Fuente: Buenos Aires Historia",
+            "source": [
+                {
+                    "url": "https://es.wikipedia.org/wiki/Avenida_Gaona",
+                    "label": "Avenida Gaona"
+                },
+                {
+                    "url": "https://buenosaireshistoria.org/juntas/la-avenida-gaona-y-el-camino-de-gauna/",
+                    "label": "Buenos Aires Historia - Avenida Gaona y el camino de gauna"
+                }
+            ]
+        }
+    }
+}

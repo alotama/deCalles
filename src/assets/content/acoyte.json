@@ -1,0 +1,38 @@
+{
+    "data": {
+        "150": {
+            "history": "La Avenida Acoyte, ubicada en Buenos Aires, Argentina, tiene una longitud de 2,1 km y atraviesa los barrios de Caballito y Villa Crespo. Inicia en Avenida Rivadavia y culmina en Avenida Warnes. En su recorrido, intersecta con avenidas importantes y aloja la estación Acoyte de la Línea A del Subte de Buenos Aires. El área circundante es comercial y está cerca del Parque Rivadavia. La avenida conmemora el Combate de Acoyte de 1818, donde 20 gauchos de las fuerzas de Martín Güemes, comandados por Bonifacio Ruiz de los Llanos, vencieron a 200 soldados realistas. La avenida es parte de una calzada continua que cambia de nombre varias veces, incluyendo José María Moreno y Muñecas",
+            "source": [
+                {
+                    "url": "https://es.wikipedia.org/wiki/Avenida_Acoyte",
+                    "label": "Wikipedia - Avenida Acoyte"
+                },
+                {
+                    "url": "https://es.wikipedia.org/wiki/Acoyte_(subte_de_Buenos_Aires)",
+                    "label": "Wikipedia - Subte Acoyte"
+                },
+                {
+                    "url": "https://es.wikipedia.org/wiki/Combate_de_Acoyte",
+                    "label": "Wikipedia - Combate de Acoyte"
+                }
+            ]
+        },
+        "300": {
+            "history": "La Avenida Acoyte es una arteria vial significativa de la Ciudad de Buenos Aires, Argentina, extendiéndose por 2,1 km y atravesando los barrios de Caballito y Villa Crespo. Esta avenida comienza en la Avenida Rivadavia y finaliza en la Avenida Warnes, intersectando con varias avenidas importantes como Avellaneda y Díaz Vélez. Es notable por albergar la estación Acoyte de la Línea A del Subte de Buenos Aires, situada en un área comercial próspera cerca del Parque Rivadavia.\n\nLa Avenida Acoyte conmemora el Combate de Acoyte, una batalla significativa de 1818 en la que 20 gauchos, bajo el mando de Bonifacio Ruiz de los Llanos y formando parte de las fuerzas de Martín Güemes, lograron derrotar a 200 soldados realistas liderados por el General Olañeta. Este evento subraya la resistencia y el valor de las fuerzas locales frente al dominio colonial.\n\nEl área circundante a la avenida es conocida por su diversidad de servicios y establecimientos comerciales, incluyendo un centro comercial, un complejo de cines, y diversas galerías con comercios de variados rubros. Además, el área alberga zonas recreativas y varias instituciones educativas, haciéndola un lugar multifuncional y de importancia central en la vida de la ciudad.\n\nEl recorrido de la avenida forma parte de una calzada que experimenta varios cambios de nombre, pasando por denominaciones como José María Moreno y Muñecas, reflejando la rica historia y diversidad de la región.\n\nEsta avenida, con su rica historia, diversidad de servicios, y ubicación estratégica, representa un microcosmos de la vida y la cultura de Buenos Aires, proporcionando a residentes y visitantes una vía para explorar y experimentar la vibrante vida de la ciudad.",
+            "source": [
+                {
+                    "url": "https://es.wikipedia.org/wiki/Avenida_Acoyte",
+                    "label": "Wikipedia - Avenida Acoyte"
+                },
+                {
+                    "url": "https://es.wikipedia.org/wiki/Acoyte_(subte_de_Buenos_Aires)",
+                    "label": "Wikipedia - Subte Acoyte"
+                },
+                {
+                    "url": "https://es.wikipedia.org/wiki/Combate_de_Acoyte",
+                    "label": "Wikipedia - Combate de Acoyte"
+                }
+            ]
+        }
+    }
+}

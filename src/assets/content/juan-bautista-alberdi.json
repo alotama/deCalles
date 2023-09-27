@@ -1,0 +1,30 @@
+{
+    "data": {
+        "150": {
+            "history": "Juan Bautista Alberdi (1810-1884) fue un jurista, diplomático y político argentino, considerado uno de los padres fundadores de Argentina. Es conocido principalmente por su influencia en la redacción de la Constitución Argentina de 1853. Alberdi fue un pensador influyente, abogando por la libertad civil, la tolerancia religiosa, y la educación pública. Su obra más significativa, \"Bases y puntos de partida para la organización política de la República Argentina\", fue instrumental para la organización nacional. Además de su trabajo en el derecho y la política, Alberdi fue un promotor de las artes y la cultura, y un crítico de la educación de su tiempo, postulando reformas significativas. Su legado perdura en el Derecho argentino, y su pensamiento liberal continúa siendo un referente en el estudio de la historia y la cultura argentina.",
+            "source": [
+                {
+                    "url": "https://es.wikipedia.org/wiki/Juan_Bautista_Alberdi",
+                    "label": "Wikipedia - Juan Bautista Alberdi"
+                },
+                {
+                    "url": "https://es.wikipedia.org/wiki/Avenida_Juan_Bautista_Alberdi_(Buenos_Aires)",
+                    "label": "Wikipedia - Avenida Juan Bautista Alberdi"
+                }
+            ]
+        },
+        "300": {
+            "history": "Juan Bautista Alberdi, nacido en 1810, es una figura central en la historia y formación de la República Argentina. Es reconocido como uno de los principales autores intelectuales de la Constitución Argentina de 1853. Este jurista, político, y diplomático argentino fue esencial en el desarrollo del marco legal y los principios fundamentales de la nación, promoviendo ideas de libertad, igualdad, y justicia.\n\nAlberdi fue un defensor ferviente de los derechos civiles y la libertad de expresión. En su obra más renombrada, \"Bases y puntos de partida para la organización política de la República Argentina\", formuló los principios estructurales para el nuevo Estado, enfatizando la importancia de un sistema federal y representativo, la tolerancia religiosa, y la educación pública y laica. Este libro sirvió de base para la redacción de la Constitución y es un testimonio de su visión progresista y reformista.\n\nAdemás de su aporte constitucional, Alberdi también destacó en el ámbito diplomático, representando a Argentina en diferentes países y promoviendo la imagen del país en el extranjero. Fue un crítico acérrimo de las guerras civiles y un propulsor del diálogo y la conciliación nacional.\n\nJuan Bautista Alberdi también tuvo un rol fundamental en el fomento de la cultura y las artes en Argentina. Criticó la educación de su época y abogó por reformas educativas que incluyeran una visión más integral y humanística. Su pensamiento liberal y sus ideales republicanos y democráticos le han otorgado un lugar preeminente en la historia argentina, siendo un referente indispensable en los estudios sobre el derecho, la política, y la cultura en Argentina.\n\nA pesar de su muerte en 1884, el legado de Alberdi sigue vivo, y su obra continúa inspirando a nuevas generaciones de argentinos en la búsqueda de una sociedad más justa, libre, y equitativa.",
+            "source": [
+                {
+                    "url": "https://es.wikipedia.org/wiki/Juan_Bautista_Alberdi",
+                    "label": "Wikipedia - Juan Bautista Alberdi"
+                },
+                {
+                    "url": "https://es.wikipedia.org/wiki/Avenida_Juan_Bautista_Alberdi_(Buenos_Aires)",
+                    "label": "Wikipedia - Avenida Juan Bautista Alberdi"
+                }
+            ]
+        }
+    }
+}

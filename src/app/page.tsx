@@ -1,8 +1,8 @@
 "use client"
 import { useEffect, useState } from 'react';
-import Card from '../../component/card';
-import Input from '../../component/form/input';
-import Select from '../../component/form/select';
+import Card from '../component/card';
+import Input from '../component/form/input';
+import Select from '../component/form/select';
 
 export default function Home() {
   const [calles, setCalles] = useState([]);

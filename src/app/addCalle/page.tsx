@@ -1,7 +1,7 @@
 "use client"
 import { useState } from 'react';
-import Card from '../../../component/card';
-import CalleForm from '../../../component/form';
+import Card from '../../component/card';
+import CalleForm from '../../component/form';
 
 export default function AddCalle() {
   const [nombre, setNombre] = useState('');

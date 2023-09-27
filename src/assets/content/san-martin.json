@@ -1,0 +1,30 @@
+{
+    "data": {
+        "150": {
+            "history": "José de San Martín, nacido en Yapeyú en 1778, es un héroe nacional argentino y pieza clave en las luchas de independencia de Argentina, Chile y Perú. Antes de retornar a América, sirvió en el ejército español combatiendo a Napoleón. Creó el Ejército de los Andes, crucial para la liberación de Chile y Perú. Tras años de lucha y una reunión con Simón Bolívar en Guayaquil, San Martín decidió retirarse de la vida pública en 1824, radicándose finalmente en Francia, donde falleció en 1850. Su legado como libertador perdura en la memoria histórica de los países que ayudó a liberar.",
+            "source": [
+                {
+                    "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
+                    "label": "Wikipedia - José de San Martín"
+                },
+                {
+                    "url": "https://es.wikipedia.org/wiki/Avenida_San_Mart%C3%ADn_(Buenos_Aires)",
+                    "label": "Wikipedia - Avenida San Martín"
+                }
+            ]
+        },
+        "300": {
+            "history": "José de San Martín, nacido el 25 de febrero de 1778 en Yapeyú, Corrientes, es uno de los libertadores más importantes de Sudamérica, jugando un papel crucial en la independencia de Argentina, Chile, y Perú. Inició su carrera militar en el ejército español, donde adquirió experiencia y conocimientos militares que más tarde serían fundamentales en las campañas de independencia en América.\n\nEn su retorno a Argentina, San Martín se dedicó a la formación del Ejército de los Andes, con el que cruzó la cordillera de los Andes en una arriesgada maniobra militar para liberar a Chile. Posteriormente, organizó una expedición marítima para liberar Perú del dominio español, lo que culminó con la proclamación de la independencia de ese país en 1821.\n\nSan Martín también es reconocido por su encuentro con Simón Bolívar en Guayaquil en 1822, donde se discutió el futuro de Sudamérica. Sin embargo, poco después de esta reunión, y en medio de disputas y tensiones políticas, San Martín optó por retirarse de la vida pública y militar en 1824.\n\nSan Martín pasó sus últimos años en Europa, falleciendo el 17 de agosto de 1850 en Boulogne-sur-Mer, Francia. Su legado vive en la memoria colectiva de los países sudamericanos que contribuyó a liberar, siendo recordado como un estratega, un líder comprometido con los ideales de libertad y un héroe nacional. Su vida y su lucha son símbolos de la aspiración a la libertad e independencia de los pueblos de Sudamérica, y su figura es honrada y respetada en gran parte del continente. Su pensamiento y su visión de una América Latina unida y libre siguen siendo un ideal y un punto de referencia en la región.",
+            "source": [
+                {
+                    "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_de_San_Mart%C3%ADn",
+                    "label": "Wikipedia - José de San Martín"
+                },
+                {
+                    "url": "https://es.wikipedia.org/wiki/Avenida_San_Mart%C3%ADn_(Buenos_Aires)",
+                    "label": "Wikipedia - Avenida San Martín"
+                }
+            ]
+        }
+    }
+}

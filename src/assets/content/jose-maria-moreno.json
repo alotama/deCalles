@@ -1,0 +1,30 @@
+{
+    "data": {
+        "150": {
+            "history": "José María Moreno (1835-1882), político y abogado argentino, es recordado como una figura influyente en la historia argentina. Su vida política fue notable; fue diputado, vicegobernador y asumió brevemente como gobernador de la Provincia de Buenos Aires en 1880, tras la renuncia de Carlos Tejedor. A lo largo de su carrera, trabajó también como secretario del Ministerio de Guerra durante la Guerra de la Triple Alianza y contribuyó significativamente al ámbito jurídico. En Buenos Aires, su legado persiste a través de la avenida y la estación de subte que llevan su nombre, destacando su impacto en la sociedad argentina de su época.",
+            "source": [
+                {
+                    "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Moreno",
+                    "label": "Wikipedia - José María Moreno"
+                },
+                {
+                    "url": "https://es.wikipedia.org/wiki/Avenida_Jos%C3%A9_Mar%C3%ADa_Moreno",
+                    "label": "Wikipedia - Avenida José María Moreno"
+                }
+            ]
+        },
+        "300": {
+            "history": "José María Moreno (1835-1882) fue un abogado y político argentino, notable en la historia de Argentina, siendo sobrino de Mariano Moreno. Nació y murió en Buenos Aires. Se formó en el colegio del Padre Francisco Magesté e ingresó a la Universidad de Buenos Aires en 1851 para estudiar Derecho, graduándose en 1861 pese a las interrupciones causadas por el Sitio de Buenos Aires. Moreno se destacó como secretario del Ministerio de Guerra durante la Guerra de la Triple Alianza y fue electo diputado de la Provincia de Buenos Aires en 1867, sirviendo a la vez como fiscal general. En 1878, ascendió a vicegobernador de la Provincia de Buenos Aires, asumiendo como gobernador en 1880 tras la sublevación y renuncia de Carlos Tejedor.\n\nMoreno tuvo una carrera política y jurídica distinguida y contribuyó significativamente al desarrollo jurídico y político de su país. La Avenida José María Moreno y una estación de subte en Buenos Aires honran su legado y su contribución a la historia argentina, sirviendo como recordatorios constantes de su impacto y servicio a la nación.",
+            "source": [
+                {
+                    "url": "https://es.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Moreno",
+                    "label": "Wikipedia - José María Moreno"
+                },
+                {
+                    "url": "https://es.wikipedia.org/wiki/Avenida_Jos%C3%A9_Mar%C3%ADa_Moreno",
+                    "label": "Wikipedia - Avenida José María Moreno"
+                }
+            ]
+        }
+    }
+}

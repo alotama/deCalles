@@ -1,0 +1,26 @@
+{
+    "data": {
+        "150": {
+            "history": "La Ciudad de La Plata es la capital de la Provincia de Buenos Aires, Argentina. Fundada en 1882 por Dardo Rocha, fue planificada para ser un centro de gobierno, educación y cultura. Es conocida por su diseño urbanístico único, caracterizado por un trazado en damero con diagonales y plazas cada seis cuadras. Es sede de la Universidad Nacional de La Plata, reconocida por su calidad académica e investigativa. La ciudad alberga varios museos, entre ellos, el Museo de Ciencias Naturales. Además, cuenta con el Estadio Único, donde se realizan eventos deportivos y musicales. La catedral de La Plata, de estilo neogótico, es otro de sus íconos, y el Paseo del Bosque es un lugar de esparcimiento. La diversidad cultural y educativa hacen de La Plata una ciudad vibrante y de relevancia en el contexto argentino.",
+            "source": [
+                {
+                    "url": "https://es.wikipedia.org/wiki/Avenida_La_Plata",
+                    "label": "Wikipedia - Avenida La Plata"
+                },
+                {
+                    "url": "https://es.wikipedia.org/wiki/La_Plata",
+                    "label": "Wikipedia - La Plata"
+                }
+            ]
+        },
+        "300": {
+            "history": "La Ciudad de La Plata, capital de la Provincia de Buenos Aires, Argentina, es una urbe de gran relevancia histórica y cultural. Fundada el 19 de noviembre de 1882 por Dardo Rocha, la ciudad fue concebida con un diseño urbanístico innovador basado en un trazado en damero complementado por diagonales y plazas distribuidas cada seis cuadras, reflejando ideales de modernidad y progreso.\n\nLa Plata es reconocida por ser un importante centro de estudios y alberga la Universidad Nacional de La Plata, una de las universidades más prestigiosas de Argentina y de América Latina, dedicada a la enseñanza y a la investigación en diversas áreas del conocimiento. Además, es un hervidero de cultura, con numerosos museos, teatros y centros culturales. Destaca el Museo de Ciencias Naturales, que exhibe una vasta colección de fósiles y especímenes y es referencia en investigación científica.\n\nOtro emblema de la ciudad es la Catedral de La Plata, una impresionante estructura de estilo neogótico que es una de las más grandes de América Latina. Además, el Paseo del Bosque ofrece un amplio espacio verde para el esparcimiento y actividades recreativas, mientras que el Estadio Único es sede de importantes eventos deportivos y conciertos musicales, posicionando a la ciudad como un relevante polo de entretenimiento.\n\nEn cuanto a su economía, La Plata presenta un perfil diversificado, con sectores industriales, comerciales y de servicios bien desarrollados. La ciudad se caracteriza por su ambiente joven y dinámico, impulsado por la presencia estudiantil, y por su rica vida cultural y nocturna, con una gran variedad de bares, restaurantes y clubes.\n\nEste vibrante mosaico de educación, cultura y entretenimiento, sumado a su singular arquitectura y planificación urbana, hacen de La Plata una ciudad única y destacada en el panorama nacional argentino.",
+            "source": [
+                {
+                    "url": "",
+                    "label": ""
+                }
+            ]
+        }
+    }
+}
