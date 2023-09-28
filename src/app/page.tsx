@@ -52,7 +52,6 @@ export default function Home() {
     <div>
       <h1>Calles de Buenos Aires</h1>
 
-
       <Card>
         <form className='flex flex-col'>
           <Input

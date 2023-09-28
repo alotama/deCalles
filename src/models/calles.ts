@@ -11,16 +11,18 @@ class Calle {
         name: string,
         numberMax: number,
         type: string,
+        data: {
+            name: string,
+            '150': string,
+            '300': string
+        },
         creationDate: Date,
         modificationDate: Date
     ) {
         this.name = name;
         this.numberMax = numberMax;
         this.type = type;
-        this.data = {
-            '150': '',
-            '300': ''
-        };
+        this.data = data;
         this.creationDate = creationDate;
         this.modificationDate = modificationDate;
     }

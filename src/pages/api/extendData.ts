@@ -13,13 +13,21 @@ const requestOptions: { [type: string]: string } = {
   redirect: 'follow'
 };
 
+interface ApiRequest {
+  query: {
+    comuna: number,
+    calle: string,
+    type: string,
+  }
+}
+
 export default function handler(
-  req: NextApiRequest,
+  req: ApiRequest,
   res: NextApiResponse<ResponseData>
 ) {
   try {
 
-    fetch(`https://apis.datos.gob.ar/georef/api/calles?departamento=Comuna ${req.query.comuna}&categoria=avenida`, requestOptions)
+    fetch(`https://apis.datos.gob.ar/georef/api/calles?departamento=Comuna ${req.query.comuna}&categoria=${req.query.type}`, requestOptions)
       .then(response => response.json())
       .then(result => {
         const findCalle = result.calles.find(calle => transformName(calle.nombre).includes(`${req.query.calle}`))
