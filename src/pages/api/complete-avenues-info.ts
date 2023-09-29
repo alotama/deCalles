@@ -35,10 +35,11 @@ export default async function handler(
             const staticContent = await importJsonFromDirectory(directoryPath, queryCalle.calle);
             avenida.data = staticContent;
             // Procesar la respuesta según las necesidades del negocio
-            const processedAvenida = processAvenida(avenida);
+            const processedAvenida = processAvenida(avenida, queryCalle.calle);
 
             // Paso 2: Guardar en la base de datos
             await saveAvenidaToDatabase(processedAvenida);
+            res.status(200).json(processedAvenida)
         }
 
         res.json(avenida);
@@ -57,10 +58,62 @@ async function saveAvenidaToDatabase(avenida: Avenida): Promise<void> {
     // Aquí tu lógica para guardar en la base de datos.
 }
 
-function processAvenida(avenida: Avenida): Avenida {
-    // Aquí tu lógica para procesar el objeto avenida según las necesidades del negocio.
-    return avenida;
-}
+/**
+ * Función para transformar un objeto de entrada a un formato específico y filtrar por nombre.
+ * - Agrupa las avenidas por nombre.
+ * - Recolecta información de todas las entradas con el mismo nombre.
+ * @param {object} input - El objeto de entrada que deseas transformar.
+ * @param {string} nombreBuscado - El nombre de la avenida que estás buscando.
+ * @returns {object} El objeto transformado y filtrado.
+ */
+const processAvenida = (input, nombreBuscado) => {
+    // Crear un objeto para almacenar el resultado.
+    const result = {};
+    
+    // Crear una expresión regular para validar el nombre de la avenida.
+    const regex = new RegExp(nombreBuscado, 'i');
+    
+    // Iterar sobre cada avenida en el array de avenidas.
+    input.calles.forEach(avenida => {
+        // Si el nombre de la avenida no coincide con el nombre buscado, retornar.
+        if (!regex.test(avenida.nombre)) return;
+        
+        // Normalizar el nombre de la avenida.
+        const name = avenida.nombre.toLowerCase().replace(/\s+/g, '-');
+        
+        // Si la avenida no está en el resultado, añadirla.
+        if (!result[name]) {
+            result[name] = {
+                number_max: 0,
+                name: avenida.nombre,
+                complete_name: {
+                    name: avenida.nombre,
+                    full_name: avenida.nomenclatura,
+                },
+                category: avenida.categoria.toLowerCase(),
+                district: [],
+                data: {
+                    ...input.data[0]
+                }
+            };
+        }
+        
+        // Añadir el departamento al array de barrios si no está ya presente.
+        if (!result[name].district.includes(avenida.departamento.nombre.toLowerCase())) {
+            result[name].district.push(avenida.departamento.nombre.toLowerCase());
+        }
+        
+        // Actualizar el número máximo si es necesario.
+        const maxNumber = Math.max(avenida.altura.fin.derecha, avenida.altura.fin.izquierda);
+        if (maxNumber > result[name].number_max) {
+            result[name].number_max = maxNumber;
+        }
+    });
+
+    return result;
+};
+
+
 
 const fetchAvenidaData = async (calle: string) => {
     const requestOptions: { [type: string]: string } = {
