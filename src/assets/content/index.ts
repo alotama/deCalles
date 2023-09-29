@@ -1,25 +1,24 @@
+import { normalizeString } from '@/utils/normalizeString';
 import fs from 'fs/promises';
 import path from 'path';
 
-export async function importJsonFromDirectory(directoryPath: string) {
-  // Resolviendo la ruta del directorio
+export async function importJsonFromDirectory(directoryPath: string, requestedStreet?: string) {
   const resolvedPath = path.resolve(directoryPath);
+  const normalizedRequestStreet = requestedStreet && normalizeString(requestedStreet)
   
   try {
-    // Leyendo el contenido del directorio
     const files = await fs.readdir(resolvedPath);
+    const jsonFiles = files.filter(file => path.extname(file) === '.json' && (!normalizedRequestStreet || file.includes(normalizedRequestStreet)));
     
-    // Filtrando archivos JSON
-    const jsonFiles = files.filter(file => path.extname(file) === '.json');
-
-    // Leyendo e importando archivos JSON
+    if(normalizedRequestStreet && jsonFiles.length === 0) throw new Error(`No file found for the requested street: ${normalizedRequestStreet}`);
+    
     const jsonData = await Promise.all(
       jsonFiles.map(async file => {
         const filePath = path.join(resolvedPath, file);
         const content = await fs.readFile(filePath, 'utf-8');
         return {
           ...JSON.parse(content),
-          name: file.replace(/\.json/g, "")
+          about: file.replace(/\.json/g, "")
         };
       })
     );
