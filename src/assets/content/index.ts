@@ -17,8 +17,7 @@ export async function importJsonFromDirectory(directoryPath: string, requestedSt
         const filePath = path.join(resolvedPath, file);
         const content = await fs.readFile(filePath, 'utf-8');
         return {
-          ...JSON.parse(content),
-          about: file.replace(/\.json/g, "")
+          ...JSON.parse(content)
         };
       })
     );

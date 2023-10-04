@@ -30,8 +30,6 @@ export default function handler(
     const geoData = await fetch(`https://apis.datos.gob.ar/georef/api/calles?departamento=Comuna ${req.query.comuna}&categoria=${req.query.type}`, requestOptions)
     .then(response => response.json())
     .then(result => {
-      const findCalle = result.calles.find(calle => transformName(calle.nombre).includes(`${req.query.calle}`))
-
       const directoryPath = 'src/assets/content/streets';
 
       // Crear un array de Promises
